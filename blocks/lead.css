@@ -4,6 +4,10 @@
   align-items: center;
   justify-content: center;
 }
+.lead__title::after {
+  content: "\A";
+  white-space: pre;
+}
 .lead__title {
   color: #ffffff;
   font-weight: 900;
@@ -13,6 +17,7 @@
   margin: 0 280px;
   padding-top: 194px;
   margin-bottom: 32px;
+  width: fit-content;
 }
 .lead__subtitle {
   font-weight: 400;
